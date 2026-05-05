@@ -1,0 +1,54 @@
+body {
+  background: #12803971;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  line-height: 1.75;
+  color: #2d3436;
+}
+
+.faq-title {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 50px;
+}
+
+.faq-container {
+  width: 70%;
+  margin: 20px auto;
+  background: #f3eee7;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-item-season {
+  margin-bottom: 20px;
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.faq-question {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.faq-answer {
+  background: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+ul.faq-answer {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+ol.faq-answer {
+  list-style-type: lower-roman;
+  padding-left: 20px;
+}

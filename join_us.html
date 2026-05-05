@@ -1,0 +1,105 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8" />
+   <title>Join the CAAC</title>
+    <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="global.css" type="text/css">
+  <link rel="stylesheet" href="join_us.css" type="text/css">
+</head>
+
+<body>
+<header class="header">
+      <div class="container navigation">
+        <a href="index.html" class="logo">
+          <img src="images/CAAC_logo.png" width = "100%" height = "100%"
+            alt="Chicago Avian Adventure Collective" class="logo-img"/>
+          <span>Chicago Avian Adventure Collective</span>
+        </a>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">HOME</a></li>
+            <li><a href="about_us.html" class="nav-link">ABOUT US</a></li>
+            <li><a href="events.html" class="nav-link">EVENTS</a></li>
+            <li><a href="bird-map.html" class="nav-link">BIRD MAP</a></li>
+            <li><a href="faq.html" class="nav-link">FAQ</a></li>
+            <li><a href="join_us.html" class="nav-link">JOIN US</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+  <main>
+
+    <section class="container">
+      <h2>Why Join?</h2>
+      <p id="p-joinus">Chicago is one of the best cities for bird watching. By joining us you can meet many other bird enthusiasts, 
+        from casuals to veterans and enjoy the birds the windy city has to offer. <span style="font-family: 'Cedarville Cursive', cursive; font-weight: bold;">Everyone is welcome!</span>
+        It&#39;s free to join and a great way to get outside and meet people.</p>
+      <p>Plus you can see cute ducks like these:</p>
+      <video style='border: 5px solid #12803971;' width="320" height="180" src="video/Rubber Duckies.mp4" controls></video>
+    </section>
+
+    <section class="container">
+      <h3>Member Benefits</h3>
+      <ul class="benefits-list">
+        <li>Guided bird walks at parks and along the lakefront</li>
+        <li>Monthly newsletter with future events</li>
+        <li>Discounts at local birding gear stores</li>
+        <li>Free beginner workshops and ID tip sheets</li>
+        <li>A friendly community of people </li>
+      </ul>
+    </section>
+
+    <section class="container">
+    <h3>CAAC Sign-Up Form</h3>
+    <p>Fill out the form below to join the CAAC and start your birding adventure with us!</p>
+    <form class="join-form" action="/Submit" method="post">
+      <label for="fName">First Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="lName">Last Name:</label>
+      <input type="text" id="lname" name="lname" required>
+      <label for="level">Experience Level:</label>
+      <select id="level" name="level" required>
+          <option value="">-- Pick One --</option>
+          <option value="beginner">Beginner</option>
+          <option value="intermediate">Intermediate</option>
+          <option value="advanced">Advanced</option>
+      </select>
+      <script src="Donation_Selection.js"></script>
+      <label for="choice">Would you like to donate? (no pressure!)</label>
+      <select id="choice" onchange="checkOption()" required>
+      <option value="">-- Pick One --</option>
+      <option value="show">Yes</option>
+      <option value="hide">No</option>
+      </select>
+      
+<!-- Hidden Content -->
+<div id="message" style="display:none;">
+  Why thank you for your generosity! Your donation will help us continue to provide free events and workshops for birders of all levels. 
+  Once you click submit, we&#39;ll reach out to you within 24 hours to discuss the details of your donation either through your email or phone number if provided.
+</div>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" optional>
+  
+        <button class="button button-green" type="submit">Submit</button>
+    </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+      <div class="container text-center">
+       <p> Copyright &#169; 2026 Chicago Avian Adventure Collective. All rights reserved.</p>
+      </div>
+    </footer>
+</body>
+</html>

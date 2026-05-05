@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+.article_top_section {
+   text-align: left;
+   margin-right:50px;
+   margin-bottom: 20px;
+}
+
+/* Interactive Map Styles */
+div.mapInfo {
+   background-color: #128038;
+   color: rgb(211, 199, 173);
+   margin-top: 20px;
+   margin-right: -100px;
+   padding: 20px 20px;
+}
+
+div.mapInfo h2 {
+   background-color: rgb(96, 87, 70);
+   text-align: center;
+   font-size: 22px;
+   font-weight: normal;
+   padding: 10px 20px;
+   margin-top: -45px;
+}
+
+
+/* Map Styles */
+#birdMap {
+   position: relative;
+   display:flex;
+   justify-content: space-between;
+   width: 50%;
+   margin: -40px 25px 0px 25px;
+   padding-bottom: 50px;
+   position: relative;
+}
+
+#mapImage {
+   position: relative;
+   display: block;
+   width: 100%;
+}
+
+
+/* Interactive Map Styles */
+a.birdMarkers {
+   position: absolute;
+   top: 0;
+   left: 0;
+   transform: translate(-50%, -50%);
+}
+a#marker1 {
+   top: 195px;
+   left: 510px;
+}
+a#marker2 {
+   top: 75px;
+   left: 475px;
+}
+a#marker3 {
+   top: 202px;
+   left: 400px;
+}
+a#marker4 {
+   top: 275px;
+   left: 530px;
+}
+a#marker5 {
+   top: 100px;
+   left: 350px;
+}
+
+
+/* Map Information Styles */
+article div.mapInfo {
+   display: none;
+   float: right;  
+   margin-left: 250px;
+   margin-top: 50px;
+   width: 100%
+}
+
+a.birdMarkers:hover + article div.mapInfo {
+   display: block;
+   width: 100%;
+}

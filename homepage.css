@@ -1,0 +1,82 @@
+/* Home Page Styles */
+.hero {
+  display: flex;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('images/Grackle 2.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%; 
+  width: 100%;
+}
+
+.hero h1 {
+  max-width: 800px;
+  margin: 0 auto 32px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  color: white;
+}
+
+p.birding-quote {
+font-family: 'Cedarville Cursive', cursive;
+font-size: 24px;
+position: relative;
+margin-top:-50px
+}
+
+h2#title-sm{
+  font-size: 24px;
+  margin-top: 16px;
+  margin-bottom: -50px;
+}
+
+div.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+div.gallery-item {
+  margin: 5px;
+  border: 1px solid #ccc;
+  width: 180px;
+}
+
+div.gallery-item:hover {
+  border: 5px solid #777;
+}
+
+div.gallery-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 0px;
+}
+
+div.gallery-item div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.sm_button {
+  display: inline-block;
+  margin-top: 75px;
+  margin-left: 20px;
+  padding: 16px 24px;
+  border-radius: 100px;
+  font-size: 10px;
+  font-weight: 800;  
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+ol.rules-list{
+    text-justify:inter-word;
+    list-style-type: 1;
+    font-weight: bold;
+    list-style-position: inside;
+    text-align: center;
+}

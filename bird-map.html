@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chicago Birds Map</title>
+    <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!-- Global styles -->
+    <link href="global.css" rel="stylesheet" />
+    <!-- Page styles -->
+    <link href="bird-map.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <header class="header">
+      <div class="container navigation">
+        <a href="index.html" class="logo">
+          <img
+            src="images/CAAC_logo.png" width = "100%" height = "100%"
+            alt="Chicago Avian Adventure Collective"
+            class="logo-img"
+          />
+          <span>Chicago Avian Adventure Collective</span>
+        </a>
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">HOME</a></li>
+            <li><a href="about_us.html" class="nav-link">ABOUT US</a></li>
+            <li><a href="events.html" class="nav-link">EVENTS</a></li>
+            <li><a href="bird-map.html" class="nav-link">BIRD MAP</a></li>
+            <li><a href="faq.html" class="nav-link">FAQ</a></li>
+            <li><a href="join_us.html" class="nav-link">JOIN US</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+<main>
+  <section class="hero">
+    <h1 style="text-align: center;">Birds Found in Chicago</h1>
+    <p style="text-align: center;">Hover the pointer over the birds in the map to
+         view a description of the bird!</p>
+    </section>
+
+      <div id="birdMap">
+         <img src="images/Map_of_Chicago.png" id="mapImage" alt="Map of some birds in Chicago" />
+         <!--Map Info-->
+         <a id="marker1" class="birdMarkers" href="#marker1"><img src="images/RWBB.png" alt="" /></a>
+         <article class="mapInfo">
+         <div class="mapInfo">
+            <h2>Red-winged Blackbird</h2>
+            <p> Broad-shouldered with a slender, conical bill.
+               Males have distinct red shoulder patches with a yellow border while 
+               females are brown and heavily streaked. Usually found in the Spring until Fall.</p>
+         </div>
+         </article>
+         
+         <a id="marker2" class="birdMarkers" href="#marker2"><img src="images/PP.png" alt="" /></a>
+         <article>
+         <div class="mapInfo">
+            <h2>Piping Plover</h2>
+            <p>Very pale, with light tan feathers on the back and head; white feathers on the front side.
+              Breeding adults have a single, black band of feathers around the neck that may go entirely across the throat. 
+		          Bills have a black tip and an orange-yellow base. They are found during Spring.</p>
+         </div>
+         </article>
+         
+         <a id="marker3" class="birdMarkers" href="#marker3"><img src="images/NC.png" alt="" /></a>
+         <article>
+         <div class="mapInfo">
+            <h2>Northern Cardinal</h2>
+            <p>Medium-sized songbirds. Both sexes of Northern Cardinal have a crest, 
+              but the male is fully red with an orange beak while the female is duller with a massive pink bill. 
+              These birds can be found year-round in Chicago.</p>
+         </div>
+         </article>
+
+         <a id="marker4" class="birdMarkers" href="#marker4"><img src="images/BCNH.png" alt="" /></a>
+         <article>
+         <div class="mapInfo">
+            <h2>Black-crowned Night Heron</h2>
+            <p>Stocky and heavy-bodied. They are more active at dusk than during daytime. 
+              Adults have a distinguishable black cap and back, gray wings. Present in the Spring and Summer months.</p>
+         </div>
+         </article>
+         
+         <a id="marker5" class="birdMarkers" href="#marker5"><img src="images/ST.png" alt="" /></a>
+         <article>
+         <div class="mapInfo">
+            <h2>Scarlet Tanager</h2>
+            <p>Stocky with thick blunt-tipped bill. 
+              Male Scarlet Tanagers have striking blood-red bodies set off by jet-black wings and tail;
+              females are yellowish-green and dark-winged. Found during the Spring and Summer. </p>
+         </div>
+         </article>
+
+      </div>
+   </article>
+  </section>
+   </main>
+
+   <footer class="footer">
+      <div class="container text-center">
+       <p> Copyright &#169; 2026 Chicago Avian Adventure Collective. All rights reserved.</p>
+      </div>
+    </footer>
+
+</body>
+</html>

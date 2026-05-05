@@ -1,0 +1,14 @@
+.join-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.benefits-list {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+p#p-joinus {
+  font-family: 'Montserrat', sans-serif;
+  justify-content: center;
+}
